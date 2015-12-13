@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Login Form</title>
+
+        <link rel="stylesheet" href="css/style-login.css">
+        <script src="js/login.js"></script>
+    
+  </head>
+
+  <body>
+
+    <span href="/photos.html" class="button" id="toggle-login">Restricted Area</span>
+
+<div id="login">
+  <div id="triangle"></div>
+  <h1>Log In</h1>
+  <form>
+   <input type="text" name="username" id="username" placeholder="username"/>
+    <input type="password" name="password" id="password" placeholder="password"/>
+	<input type="button" value="Login" id="submit" onclick="validate()"/>
+    <input type="button" value="Back" onClick="history.go(-1);return true;"/>
+    
+  </form>
+</div>
+   
+  
+  </body>
+</html>
